@@ -1,0 +1,14 @@
+4
+Alice
+Bob
+Chris
+David
+6
+Alice Bob
+Bob David
+David Alice
+Chris Alice
+Chris Bob
+Chris David
+Bob
+1
