@@ -15,7 +15,7 @@ if [[ -f "./Main.java" ]]; then
     for input in test2/input/*.txt; do
       ((total++))
       base_name=$(basename "$input" .txt)
-      output_file="test2/output/${base_name}.txt"
+      output_file="test2/output/output${base_name:5}.txt"  # Change input to output
       java Main < "$input" > temp.txt
       if [[ $? -ne 0 ]]; then  # Check for execution errors
         echo "Execution failed for $input"
